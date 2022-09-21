@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import MyName from './Hello World';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div><MyName> 
+      <li> I am curious person</li>
+      <li>I want to learn things quickly</li>
+
+    </MyName>
+    </div>
     <App />
   </React.StrictMode>
 );
